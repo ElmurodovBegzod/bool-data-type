@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool func(int a) {
+    return 9 % 1 == 0 && 9 > 0;
+}
 
-void main() {}
+void main() {
+    print(func(9));
+}
